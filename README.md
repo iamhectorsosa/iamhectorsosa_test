@@ -1,4 +1,4 @@
-# Hector Sosa
+# Welcome
 
 ![Hector Sosa](./assets/opengraph-image.png)
 
@@ -6,7 +6,7 @@ I'm a Full Stack Engineer with a Master's in Project Management, bringing over 5
 
 ## Built with Go
 
-A minimal static site generator built with Go and TailwindCSS that creates a single-page resume with the following features:
+Using a minimal static site generator built with Go and TailwindCSS that creates a single-page resume with the following features:
 
 - 📄 Print-optimized design for PDF export
 - 🎨 Dark mode by default
