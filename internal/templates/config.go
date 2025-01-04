@@ -10,6 +10,7 @@ type Heading struct {
 	Name    string        `yaml:"name"`
 	Bio     string        `yaml:"bio"`
 	About   string        `yaml:"about"`
+	Repo    string        `yaml:"repo"`
 	URL     string        `yaml:"url"`
 	Contact []ContactItem `yaml:"contact"`
 }

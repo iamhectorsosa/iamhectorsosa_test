@@ -11,13 +11,19 @@
   <meta property="og:url" content="{{ .Heading.URL }}" />
   <meta property="og:title" content="{{ .Heading.Name }}" />
   <meta property="og:description" content="{{ .Heading.Bio }}" />
-  <meta property="og:image" content="assets/opengraph-image.png" />
+  <meta
+    property="og:image"
+    content="https://raw.githubusercontent.com/{{ .Heading.Repo }}/main/assets/opengraph-image.png"
+  />
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image" />
   <meta property="twitter:url" content="{{ .Heading.URL }}" />
   <meta property="twitter:title" content="{{ .Heading.Name }}" />
   <meta property="twitter:description" content="{{ .Heading.Bio }}" />
-  <meta property="twitter:image" content="assets/opengraph-image.png" />
+  <meta
+    property="twitter:image"
+    content="https://raw.githubusercontent.com/{{ .Heading.Repo }}/main/assets/opengraph-image.png"
+  />
   <!-- Styles -->
   <link href="css/tailwind.css" rel="stylesheet" />
   <!-- Favicon -->
