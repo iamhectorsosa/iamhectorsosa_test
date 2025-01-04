@@ -9,8 +9,8 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/iamhectorosa/iamhectorsosa/internal/headless"
-	"github.com/iamhectorosa/iamhectorsosa/internal/templates"
+	"github.com/iamhectorosa/resume/internal/headless"
+	"github.com/iamhectorosa/resume/internal/templates"
 )
 
 const (

@@ -1,4 +1,4 @@
-module github.com/iamhectorosa/iamhectorsosa
+module github.com/iamhectorosa/resume
 
 go 1.23.2
 

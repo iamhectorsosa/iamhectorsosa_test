@@ -19,8 +19,8 @@ Usage
 
 ```bash
 # Install
-git clone https://github.com/iamhectorsosa/iamhectorsosa_test.git
-cd iamhectorsosa_test
+git clone https://github.com/iamhectorsosa/resume.git
+cd resume
 
 # Dependencies
 go mod download
