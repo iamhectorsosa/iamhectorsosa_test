@@ -1,5 +1,7 @@
 # Hector Sosa
 
+![Hector Sosa](./assets/opengraph-image.png)
+
 I'm a Full Stack Engineer with a Master's in Project Management, bringing over 5 years of experience in developing responsive and scalable enterprise applications. I specialize in React, TypeScript, GraphQL, and Go.
 
 ## Built with Go
