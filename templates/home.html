@@ -1,0 +1,25 @@
+{{ define "home" }} {{ template "layout" . }} {{ end }} {{ define "content" }}
+<section class="space-y-4 print:space-y-2">
+  <div class="space-y-2 print:space-y-1">
+    <h1 class="font-semibold tracking-tight scroll-m-9 text-5xl print:text-xl">
+      {{ .Heading.Name }}
+    </h1>
+    <p
+      class="font-medium leading-normal text-lg print:text-sm text-muted-foreground"
+    >
+      {{ .Heading.Bio }}
+    </p>
+  </div>
+  <ul class="flex flex-wrap gap-1.5">
+    {{ range .Heading.Contact }}
+    <li>{{ template "badge" . }}</li>
+    {{ end }}
+  </ul>
+</section>
+<section class="space-y-4 print:space-y-2">
+  <h2 class="font-semibold tracking-tight scroll-m-8 text-xl print:text-sm">
+    About
+  </h2>
+  <p class="font-light leading-loose print:text-sm">{{ .Heading.About }}</p>
+</section>
+{{ range .Sections }} {{ template "section" .}} {{ end }} {{ end }}

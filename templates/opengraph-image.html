@@ -1,0 +1,17 @@
+{{ define "opengraph-image" }}
+<!doctype html>
+<html lang="en" class="scheme-dark dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ .Heading.Name }}</title>
+    <link href="{{ .CSSPath }}" rel="stylesheet" />
+  </head>
+  <body class="flex items-end h-screen p-28 bg-background text-foreground">
+    <div class="space-y-3">
+      <h1 class="text-7xl font-semibold">{{ .Heading.Name }}</h1>
+      <p class="text-2xl text-muted-foreground">{{ .Heading.Bio }}</p>
+    </div>
+  </body>
+</html>
+{{ end }}

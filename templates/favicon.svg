@@ -1,0 +1,12 @@
+{{ define "favicon" }}
+<svg fill="#ffffff" viewBox="-2.64 -2.64 27.28 27.28" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff" stroke-width="0.00022">
+  <g stroke-width="0" transform="translate(0,0), scale(1)">
+    <rect x="-2.64" y="-2.64" width="27.28" height="27.28" rx="6.5472" fill="#030712" strokewidth="0"></rect>
+  </g>
+  <g stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.044">
+  </g>
+  <g>
+    <path d="M20 3V19H19V20H3V19H2V3H3V2H19V3H20M18 6H4V18H18V6M9 9V10H10V11H11V13H10V14H9V15H8V16H6V14H7V13H8V11H7V10H6V8H8V9H9M11 16V14H16V16H11Z"></path>
+  </g>
+</svg>
+{{ end }}

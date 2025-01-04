@@ -1,0 +1,26 @@
+{{ define "head" }}
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Primary Meta Tags -->
+  <title>{{ .Heading.Name }}</title>
+  <meta name="title" content="{{ .Heading.Name }}" />
+  <meta name="description" content="{{ .Heading.Bio }}" />
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ .Heading.URL }}" />
+  <meta property="og:title" content="{{ .Heading.Name }}" />
+  <meta property="og:description" content="{{ .Heading.Bio }}" />
+  <meta property="og:image" content="assets/opengraph-image.png" />
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="{{ .Heading.URL }}" />
+  <meta property="twitter:title" content="{{ .Heading.Name }}" />
+  <meta property="twitter:description" content="{{ .Heading.Bio }}" />
+  <meta property="twitter:image" content="assets/opengraph-image.png" />
+  <!-- Styles -->
+  <link href="css/tailwind.css" rel="stylesheet" />
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+</head>
+{{ end }}

@@ -1,0 +1,72 @@
+heading:
+  name: "Hector Sosa"
+  bio: "Full Stack Engineer | Currently at @webscopeio"
+  about: "Full Stack Engineer (Msc. Project Management) with +5 years of experience in developing responsive and scalable enterprise applications using React, TypeScript, GraphQL, Go, and more."
+  url: "https://hectorsosa.me"
+  contact:
+    - type: "Website"
+      href: "https://hectorsosa.me"
+      label: "hectorsosa.me"
+
+    - type: "Email"
+      href: "mailto:hello@hectorsosa.me"
+      label: "hello@hectorsosa.me"
+
+    - type: "GitHub"
+      href: "https://github.com/iamhectorsosa"
+      label: "@iamhectorsosa"
+
+    - type: "LinkedIn"
+      href: "https://linkedin.com/in/iamhectorsosa"
+      label: "@iamhectorsosa"
+
+sections:
+  - title: "Work Experience"
+    items:
+      - title: "Senior React/TypeScript Developer at Webscope.io"
+        start_date: "2022"
+        end_date: "now"
+        href: "https://webscope.io/"
+        description: "Migrating and implementing a complex data observability platform, utilizing React, TypeScript, GraphQL, and Go. Enhancing diagnostic capabilities, optimizing performance, and reducing user support requests."
+
+      - title: "SN Technical Consultant at GuideVision Česko"
+        start_date: "2021"
+        end_date: "2022"
+        href: "http://guidevision.eu/"
+        description: "Developed an IT helpdesk application using Angular for improved request management. Defined specifications, completed multiple projects, and increased code coverage up to 80%."
+
+      - title: "Frontend Developer (Freelance)"
+        start_date: "2019"
+        end_date: "2021"
+        description: "Developed responsive, customized websites for diverse clients using React, Vite, and Next, with styling frameworks including Bootstrap, Bulma, and Material UI."
+
+  - title: "Education"
+    items:
+      - title: "M.Sc., Project Management at Universidad Tecnológica Centroamericana"
+        start_date: "2017"
+        end_date: "2019"
+        href: "https://www.unitec.edu/"
+
+  - title: "Certifications"
+    items:
+      - title: "Full Stack Open 2021 at University of Helsinki"
+        start_date: "2021"
+        end_date: null
+        href: "https://fullstackopen.com/en/"
+
+      - title: "Web Developer Bootcamp 2020 at Udemy"
+        start_date: "2020"
+        end_date: null
+        href: "https://www.udemy.com/course/the-web-developer-bootcamp/"
+
+  - title: "Speaking"
+    items:
+      - title: "Understanding Suspense with Next 13 at Webscope.io"
+        start_date: "2023"
+        end_date: null
+        href: "https://github.com/iamhectorsosa/suspense-demo"
+
+      - title: "REST API Fundamentals Workshop at Guidevision Česko"
+        start_date: "2022"
+        end_date: null
+        href: "https://www.figma.com/file/4kk6YfgSq6ak691XSEhXe6/REST-API"
